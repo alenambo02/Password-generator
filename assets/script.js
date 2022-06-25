@@ -21,7 +21,7 @@ generateBtn.addEventListener("click", writePassword);
 
 // created one function to generate a random password
 function generatePassword() {
-//used prompt, confirm, and alert to create pop up boxes
+//used prompt, confirm, and alert to create pop up boxes for user
 //this will allow users to select the kind of characters they would like to include in their password
   var passwordLength = prompt("Please enter amount of character wanted for password below");
     if (passwordLength < 8 || passwordLength > 128){
@@ -37,7 +37,7 @@ function generatePassword() {
   var lower = confirm("Do you want lowercase letters in your password?");
 //sidenote:remember that selectedCharacters variable has to be applied here not above 
   var selectedCharacters = []
-//used concat to create a new array that includes characters selected by user
+//used concat to merge arrays by creating a new array that includes the characters selected by user 
   if (upper){
     selectedCharacters= selectedCharacters.concat(upperCase)
     }
@@ -51,7 +51,7 @@ function generatePassword() {
     selectedCharacters= selectedCharacters.concat(lowerCase)
     }
 
-
+//created a new variable that will be assigned to the new password generated 
   var newPassword = ""
 
 //use Math.random in order for the user to recieve a randomized new password

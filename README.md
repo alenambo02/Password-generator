@@ -16,6 +16,13 @@ Some of my challenges throughout this project were understanding how to structur
 
 Hopes: I hope to create smaller projects like this, that will allow for me to expand on my Javascript knowledge.
 
+## Usage 
+Here you can view a screenshot of the generator, if you click on the red button labeled "generate password" a window will display with prompts. 
+Use it to generate a new password or to learn how to use display windows in any webpage. 
+
+```md
+![alt text](assets/screenshot.png)
+```
 ## License 
 MIT License
 
@@ -38,14 +45,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Installation
-
-## Usage 
-
-```md
-![alt text] (assets/images/screenshot.png)
-```
 
 ## Credits 
 Below I will include webpages I utilized to understand Javascript concepts and conceptualize it within my code:
